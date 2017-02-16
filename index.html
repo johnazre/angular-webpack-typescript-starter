@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="testApp">
+    <head>
+        <title>Sample project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    </head>
+    <body ng-controller="mainCtrl as vm">
+        <h1>Hello Meetup!</h1>
+        <label>Something:</label>
+        <input type="text" ng-model="vm.something">
+        <p>output: {{vm.something}}</p>
+
+        <script src="bundle.js" charset="utf-8"></script>
+    </body>
+</html>

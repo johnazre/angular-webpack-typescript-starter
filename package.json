@@ -1,0 +1,25 @@
+{
+  "name": "someProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.5",
+    "@types/angular-ui-router": "^1.1.36",
+    "@types/node": "^7.0.5",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1"
+  }
+}
